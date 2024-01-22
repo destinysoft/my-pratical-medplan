@@ -1,0 +1,49 @@
+@media (min-width: 1024px) {
+    .timemed {
+        width: 95rem;
+        height: 65rem;
+        margin-top: -13px;
+       
+       }
+       
+       
+       .timeimg{
+         width:  100vw;
+         
+       }
+
+       .backimg{
+        display: none;
+      }
+       
+       .timecaption {
+         position: absolute;
+         top: 450px;
+         bottom: 40px;
+         left: 125px;
+         right: -100px;
+       }
+}
+
+
+
+@media (max-width: 767px) {
+    .timecaption {
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        margin-top: -190px;
+      
+      }
+    
+      .backimg{
+        margin-top: -18px;
+      }
+      
+       .timeimg{
+        width: 890px;
+        height: 600px;
+        display: none;
+       }
+    
+}

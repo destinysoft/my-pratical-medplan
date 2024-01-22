@@ -1,0 +1,75 @@
+@media (min-width: 1024px) {
+    .pic{
+        margin-top: 60px;
+        width: 770px;
+      }
+    
+       .healthdiv{
+        display: flex;
+        flex-direction: row;
+        
+       }
+    
+      .healthtext{
+        display: flex;
+        flex-direction: column;
+        padding: 90px;
+        background-color: rgb(105, 105, 105);
+        color: white;
+        margin-top: 60px;
+      }
+    
+      .colllaborationtext{
+        margin-top: 20px;
+        margin-left: -50px;
+        font-size: 16px;
+      }
+    
+      .createtext{
+        margin-left: -50px;
+        margin-top: 15px;
+        font-size: 28px;
+        font-family: 'Lucida Sans Unicode';
+        font-weight: bold;
+      }
+    
+    
+      .healthtext1{
+        margin-left: -50px;
+        margin-top: -2px;
+      }
+    
+}
+
+
+
+
+@media (max-width: 767px)  {
+    .pic{
+        width: 590px;
+        margin-top: 30px;
+      }
+      
+      
+      
+      .healthtext{
+        background-color: gray;
+        color: #fff;
+        padding: 46px;
+        margin-top: -20px;
+      }
+      
+      .createtext{
+        margin-left: 1px;
+        font-weight: bolder;
+        margin-top: 15px;
+        font-size: 23px;
+      }
+      
+      .colllaborationtext{
+        margin-left: 1px;
+        font-size: 19px;
+      }
+      
+            
+}

@@ -1,0 +1,76 @@
+@media (min-width: 1024px)  {
+      
+ .imgtext{
+  width: 100vw;
+  height: 50vw;
+ }
+
+ .ptext{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 17px;
+ }
+
+  
+ .ptext2{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    color: white;
+ }
+
+ .ptext3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+ }
+
+ .patienttext{
+    padding: 46px;
+    margin-top: -450px;
+ }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px)  {
+    .imgtext{
+        width: 100vw;
+        height: 50vw;
+       }
+
+
+
+     .patienttext{
+        padding: 46px;
+        margin-top: -20px;
+     }
+
+     
+     .ptext2{
+        margin-left: 1px;
+        font-weight: bolder;
+        margin-top: 15px;
+        font-size: 23px;
+     }
+
+     .ptext3{
+        margin-left: 1px;
+        font-size: 19px;
+     }
+
+
+}

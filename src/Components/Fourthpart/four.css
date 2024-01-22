@@ -1,0 +1,239 @@
+@media (min-width: 1024px) {
+    .solutionimg{
+        width: 90px;
+        margin-top: 10px;
+        
+      }
+      
+      .medplantext2{
+        font-weight: bold;
+        font-family:'Arial Narrow';
+        margin-top: 15px;
+      }
+      
+      .Empoweringtext{
+          font-weight: lighter;
+          font-size: 18px;
+          padding-top: 7px;
+      }
+      
+      
+      .learntext{
+        font-weight: lighter;
+        font-family:'system-ui';
+        font-size: 15px;
+        color:#777575;
+      }
+      
+      
+      .learntext1{
+        font-weight: lighter;
+        font-family:'system-ui';
+        font-size: 15px;
+        padding-top: 50px;
+        color:#777575;
+      }
+      
+      .learntext2{
+        font-weight: lighter;
+        font-family:'system-ui';
+        font-size: 15px;
+        margin-top: -25px;
+        color:#777575;
+      }
+      
+      .learntext3{
+        font-weight: lighter;
+        font-family:'system-ui';
+        font-size: 15px;
+        padding-top: 22px;
+        color:#777575;
+      }
+      
+      .naijapharmstext{
+        font-weight: bold;
+        font-family:'Arial Narrow';
+        margin-top: 15px;
+        padding-top: 7px;
+      }
+      
+      .naijapharmimg{
+        width: 90px;
+        margin-top: 20px;
+       
+      }
+      
+      .platformtext{
+        font-weight: lighter;
+        font-size: 18px;
+        padding-top: 7px;
+      }
+      
+      .tellapharmtext{
+        font-weight: bold;
+        font-family:'Arial Narrow';
+        margin-top: 15px;
+      }
+      
+      .connectingtext{
+        font-weight: lighter;
+        font-size: 18px;
+        padding-top: 7px;
+      }
+      
+      .tellaimg{
+        width: 150px;
+        margin-top: 10px;
+      }
+      
+      .octaviaimg{
+        width: 116px;
+        margin-top: 10px;
+      }
+      
+      .octaviatext{
+        font-weight: bold;
+        font-family: 'Arial Narrow';
+        margin-top: 20px;
+       
+      }
+      
+      .digitaltext{
+        font-weight: lighter;
+        font-size: 18px;
+        padding-top: 7px;
+      }
+      
+      
+      .solutiondiv{
+             display: flex;
+             flex-direction: row;
+             justify-content: space-evenly;
+             margin-top: 140px;
+      }
+      
+      
+      .div{
+        display: flex;
+        flex-direction: column;
+    
+      }
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+   
+.solutionimg{
+    width: 70px;
+    margin-top: 40px;
+    
+  }
+  
+  .medplantext2{
+    font-weight: bold;
+    font-family:'Arial Narrow';
+    margin-top: 12px;
+    font-size: 17px;
+  }
+  
+  .Empoweringtext{
+      font-weight: lighter;
+  }
+  
+  .learntext3{
+    font-weight: lighter;
+    font-family:'system-ui';
+    color:#777575;
+  }
+  
+  .naijapharmstext{
+    font-weight: bold;
+    font-family:'Arial Narrow';
+    margin-top: 12px;
+    font-size: 17px;
+  }
+  
+  .naijapharmimg{
+    width: 70px;
+    margin-top: 40px;
+   
+  }
+  
+  .platformtext{
+    font-weight: lighter;
+  
+  
+  }
+  
+  .learntext{
+    font-weight: lighter;
+    font-family:'system-ui';
+    color:#777575;
+  }
+  
+  
+  .tellapharmtext{
+    font-weight: bold;
+    font-family:'Arial Narrow';
+    margin-top: 12px;
+    font-size: 17px;
+  }
+  
+  .connectingtext{
+    font-weight: lighter;
+  }
+  
+  .tellaimg{
+    width: 70px;
+    margin-top: 40px;
+  }
+  
+  
+  
+  .learntext1{
+    font-weight: lighter;
+    font-family:'system-ui';
+    color:#777575;
+  }
+  
+  
+  .octaviaimg{
+    width: 70px;
+    margin-top: 40px;
+  }
+  
+  .octaviatext{
+    font-weight: bold;
+    font-family: 'Arial Narrow';
+    margin-top: 12px;
+    font-size: 17px;
+   
+  }
+  
+  .digitaltext{
+    font-weight: lighter;
+  }
+  
+  
+  .learntext2{
+    font-weight: lighter;
+    font-family:'system-ui';
+    color:#777575;
+  }
+
+  .div{
+    margin-left: 50px;
+  }
+  
+  
+}
