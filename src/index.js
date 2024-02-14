@@ -9,6 +9,12 @@ import Founder from './Components/Thirdpart/third'
 import Solution from './Components/Fourthpart/four'
 import Health  from './Components/Fifthpart/fifth'
 import Patient from './Components/Sixthpart/six'
+import Research from './Components/seventhpart/sev'
+import Annual from './Components/Eighthpart/eig';
+import Test from './Components/Ninthpart/nin';
+import Testimonials from './Components/Testimonials/test';
+import Future from './Components/tenthpart/ten';
+import Footer from './Components/Footer/foot';
 
 
 
@@ -25,6 +31,12 @@ root.render(
     <Solution/>
     <Health/>
     <Patient/>
+    <Research/>
+    <Annual/>
+    <Test/>
+    <Testimonials/>
+    <Future/>
+    <Footer/>
   </React.StrictMode>
 );
 

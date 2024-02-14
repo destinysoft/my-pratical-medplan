@@ -12,6 +12,8 @@ function Solution () {
     return (
      <div className='solutiondiv'>
 
+          <p className="solutiontext">Our Solutions</p>
+
           <div className='div'>
              <img class="solutionimg"  src={medplan}  alt="img"  />
 

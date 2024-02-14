@@ -1,3 +1,6 @@
+
+
+
 @media (min-width: 1024px) {
     .timemed {
         width: 95rem;
@@ -30,14 +33,19 @@
 @media (max-width: 767px) {
     .timecaption {
         position: absolute;
-        top: 300px;
+        /* top: 300px;
         left: 30px;
+        margin-top: -190px; */  
+        top: 300px;   
         margin-top: -190px;
+        left: 30px;
+
       
       }
     
       .backimg{
-        margin-top: -18px;
+       margin: auto;
+      
       }
       
        .timeimg{
@@ -46,4 +54,11 @@
         display: none;
        }
     
+
+    .timemed{
+      /* position: relative; */
+      margin: auto;
+    }
+
+
 }

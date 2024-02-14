@@ -1,0 +1,140 @@
+@media screen  and (min-width:  1024px) {
+       
+    .keep {
+        color: rgba(0, 0, 0, 0.521);
+        text-align: center;
+        font-size: 26px;
+        margin-top: 56px;
+        font-family:"Calibri";
+        font-weight: 560;
+        /* position: absolute;
+        top: 4970px;
+        left: 550px; */
+    }
+
+     
+    .informeddiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+     .riv{
+        display: flex;
+        flex-direction: column;
+       
+     }
+        
+
+
+    .peoplemg{
+         width: 25vw;
+         margin-bottom: 5px;
+         padding: 20px;
+    }
+     
+    .futuret{
+        font-weight: bold;
+        margin-bottom: 7px;
+        margin-left: 19px;
+        font-size: 18px;
+    }
+
+   .techtext{
+      font-weight: lighter;
+      position: relative;
+      left: 20px;
+   }
+
+
+   .readtext{
+    font-weight: light;
+    font-family:'system-ui';
+    color:#777575;
+    font-size: 15px;
+    padding-bottom: 30px;
+    position: relative;
+    left: 20px;
+   }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:  767px) {
+        
+    .informeddiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -5px;
+        /* overflow: auto;
+        white-space: nowrap;
+        width: 100%; */
+    }
+
+
+    .keep {
+        color: rgba(0, 0, 0, 0.521);
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        font-family:"Calibri";
+        padding: 10px;
+        margin-top: 90px;
+    }
+
+
+
+
+     .riv{
+        display: flex;
+        flex-direction: column;
+        /* display: inline-block;
+        margin-right: 10px;
+        vertical-align: text-bottom;
+        white-space: normal; */
+     }
+
+
+    .peoplemg{
+        width: 30vw;
+        margin-bottom: 5px;
+        padding: 20px;
+   }
+
+
+   .futuret{
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-left: 19px;
+    font-size: 15px;
+}
+
+.techtext{
+  font-weight: lighter;
+  position: relative;
+  left: 20px;
+  font-size: 10px;
+ 
+}
+
+
+.readtext{
+font-weight: light;
+font-family:'system-ui';
+color:#777575;
+font-size: 15px;
+padding-bottom: 30px;
+position: relative;
+left: 20px;
+}
+
+
+}

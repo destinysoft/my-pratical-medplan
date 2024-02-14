@@ -1,58 +1,67 @@
 import React, {useState} from "react"
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RiArrowDropDownLine } from "react-icons/ri";
+import { IoIosClose } from "react-icons/io"
 import medplan from "../../Assets/medplan1.png";
 import "./bar.css"
 
 
 const Navbar = () => {
-     const[isMenuOpen, setMenuOpen] = useState(false);
+     const[showMobileMenuOpen, setMobileMenuOpen] = useState(false);
      const[showAboutDropdown,  setShowAboutDropdown] =useState(false);
 
-   
+     const toggleMobileMenu = () => {
+      setMobileMenuOpen(!showMobileMenuOpen);
+     }
 
     const toggleSolutionDropdown = () => {
         setShowAboutDropdown(!showAboutDropdown);
     }
 
 
-
    return(
          <nav className="navbar">
            
-        <div> <img  className="logo"   src={medplan} alt="medplan"  height="45px" /> </div>  
+       <div> 
+        <img  className="logo"   src={medplan} alt="medplan"  height="45px" /> 
+       </div>  
 
       <ul className='navlinks'>
-        <input type="checkbox"  id="checkboxtoggle" />
-        <label for="checkboxtoggle" class="hamburger">&#9776;</label>
 
-     <div className='menu'>
+     <div className={`menu ${showMobileMenuOpen ? 'open':  ''}`} >
        <li className='home'>Home</li>
        <li className={`hovereffect ${showAboutDropdown ? 'active':  ''}`}  onClick={toggleSolutionDropdown}>
             
-       <div className='solutionlabel'>Solutions</div>
+       <div className='solutionlabel'>Solutions  &nbsp; <   RiArrowDropDownLine   className='dp' /></div>
          {  showAboutDropdown ? <>
 
-          <li className='solution'>
+          <li className='solution'> 
             <ul className='selectbox'>
                 <li>Medplan</li>
                 <li>NaijaPharms</li>
                 <li>Tellapharm</li>
-                <li>Octavia</li>
+                <li className="oc">Octavia</li>
             </ul>
           </li>
 
             </> :null}
        </li>
         
-        <li className='hovereffect'><a href='#news&events'>News & Events</a></li>
-        <li className='hovereffect'><a href='#research'>Research</a></li>
-        <li className='hovereffect'><a href='#about us'>About us</a></li>
+        <li className="solutionlabel">News & Events</li>
+        <li className="solutionlabel">Research</li>
+        <li className="solutionlabel">About us</li>
        </div> 
         </ul>
    
+       <div className="mobilemenuicon"  onClick={toggleMobileMenu} >
+       
+       {showMobileMenuOpen ? <IoIosClose className='close'/>  : <GiHamburgerMenu />  }
+       
+       
+       
+    
+       </div>
 
-
-
-            
          </nav>
    )
 

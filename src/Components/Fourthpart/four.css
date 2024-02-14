@@ -1,5 +1,15 @@
 @media (min-width: 1024px) {
-    .solutionimg{
+ 
+  .solutiontext{
+    font-weight: bold;
+    font-family:'Arial Narrow';
+    font-size: 24px;
+    padding: 10px;
+    margin-top: -55px;
+   
+}
+ 
+  .solutionimg{
         width: 90px;
         margin-top: 10px;
         
@@ -132,7 +142,8 @@
 
 
 @media (max-width: 767px) {
-   
+
+
 .solutionimg{
     width: 70px;
     margin-top: 40px;
@@ -235,5 +246,22 @@
     margin-left: 50px;
   }
   
-  
+  .solutiondiv{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+
+
+  .solutiontext{
+    font-weight: bold;
+    font-family:'Arial Narrow';
+    font-size: 18px;
+    padding: 5px;
+    margin-top:  -10px;
+    margin-left:  -20px;
+}
+
+
 }

@@ -50,6 +50,15 @@
       .navlinks a:hover{
         color:#219c90;
       }
+
+      .mobilemenuicon{
+        display: none;
+      }
+
+
+
+
+
       
       .solutionlabel{
         cursor: pointer;
@@ -57,16 +66,22 @@
       }
       
       
-      
-      .solutiionlabel{
-        color:#777575;
-        cursor: pointer;
+      .dp{
+        color: black;
+        font-size: 20px;
       }
-      
       
       .solutionlabel:hover{
         color:#219c90;
       }
+
+
+      .solutionlabel li:last-child{
+         border: none;
+      }
+
+
+
       
       .selectbox{
         position: absolute;
@@ -96,34 +111,24 @@
         cursor: pointer;
       }
       
+      .selectbox li:last-child {
+           border: none;
+      }
+
+
       .solution li:hover{
         color: #527853;
         transition: 0.3s ease;
       }
       
-      input[type=checked] {
-        display: none;
-        
-    }
-    
-    .hamburger{
-        display: none;
-        font-size: 24px;
-        user-select: none;
-    
-    }
-    
-    #checkboxtoggle{
-        display: none;
-    
-    }
+ 
 
     .menu{
         display: flex;
         gap: 1em;
         font-size: 22px;
     
-   }
+   } 
 
    .solutionlabel{
     cursor: pointer;
@@ -131,12 +136,28 @@
     color: #777575;
   }
   
+  .selectbox li{
+
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .solution li:hover{
+    color: #527853;
+    transition: 0.3s ease;
+  }
   
   
   .solutionlabel:hover{
     color:#219c90;
   }
   
+
+.close{
+  display: none;
+}
+
 
 }
 
@@ -170,36 +191,88 @@
        
     
       .navlinks{
-        display: none;
+        display: block;
+        cursor: pointer;
       }
-    
-
-    input[type=checkbox]:checked ~ .menu {
-        display: block;
-       
-    }
-
-
-     .hamburger{
-        display: block;
-        font-size: 24px;
-     }
-
-     #checkboxtoggle{
-        display: block;
-    
-    }
+  
 
     .menu{
         display: none;
+        flex-direction: column;
         position: absolute;
-        background-color: #219c90;
+        background-color: #377e77;
         right: 0;
         left: 0;
         text-align: left;
         padding: 16px;
+        cursor: pointer;
+        width: 100%;
+        top: 6.7%;
+       
     
+    
+    }
+
+    .menu li{
+      border: 1px solid white;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      line-height: 40px;
+      color: white;
+      padding: 3px;
+      cursor: pointer;
+      font-size: 12px;
     }
     
 
+    .menu li:hover{
+        color:#527853
+    }
+
+     .selectbox li{
+        color: #527853;
+        border: 1px solid #527853;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        line-height: 40px;
+        background-color: white;
+     }
+
+
+  
+
+    .mobilemenuicon{
+      display: block;
+      cursor: pointer;
+      margin-top: -12px;
+      display: flex;
+      align-items: end;
+      justify-items: end;
+    }
+
+
+    .menu.open {
+      display: flex;
+      cursor: pointer;
+      /* margin-top: 80px; */
+    }
+
+    
+    .solutionlabel:hover{
+      color:#219c90;
+    }
+
+
+
+
+   .menu li:last-child{
+    border: none;
+   }
+         
+   
+
+
+   
 }
