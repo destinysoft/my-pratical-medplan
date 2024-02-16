@@ -33,32 +33,28 @@
 @media (max-width: 767px) {
     .timecaption {
         position: absolute;
-        /* top: 300px;
+        top: 300px;
         left: 30px;
-        margin-top: -190px; */  
-        top: 300px;   
-        margin-top: -190px;
-        left: 30px;
-
-      
+        margin-top: -232px;
+        padding: 5px;
       }
     
       .backimg{
-       margin: auto;
+       /* margin-top: -10px; */
+       width: 100%;
       
       }
       
        .timeimg{
-        width: 890px;
-        height: 600px;
         display: none;
        }
     
 
     .timemed{
-      /* position: relative; */
-      margin: auto;
+      margin-top: -10px;
+    
     }
+
 
 
 }

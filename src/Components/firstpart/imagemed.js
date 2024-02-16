@@ -5,7 +5,7 @@ import image3 from "../../Assets/hHeader3.png"
 import "./imagemed.css"
 
 
-const Imagemed = () => {
+const Imagemed = ( { isOpen }) => {
    
     const Images = [image1, image2, image3];
   
@@ -22,21 +22,20 @@ const Imagemed = () => {
   return(
     <div  className='timemed'>
      <img className="timeimg" src={Images[currentIndex]} alt={`image ${currentIndex + 1}`} />
-     
-     <div className=''>
-        <img className='backimg'  style={{width:'590px'}}  src={image1} alt='img'  />
-           
-     <div className='timecaption'>
-      
+
+     <div className='bbb'>
+        <img className='backimg'  src={image1} alt='img'  />
+
+        <div className='timecaption'>  
       {
-         currentIndex === 0 ?  <div> <span className='a' style={{ color: 'white', fontWeight: 'bold', fontSize: '26px' }}>MEDPLAN SOLUTIONS</span> <br/>  <div style={{ color: 'white', fontSize: '20px' }}> Improving Healthcare In <span style={{ color: '#219c90', fontSize: '20px' }}>Africa</span><br/>Using <span style={{ color: '#219c90', fontSize: '20px' }}>Digital Health</span> Solution </div> </div>
-         : currentIndex === 1 ? <div> <span style={{ color: 'white', fontSize: '30px' }}>From</span>  <span style={{ color: '#219c90', fontSize: '23px' }}>Telemedicine</span> <span style={{ color: 'white', fontSize: '25px' }}>to</span> <div style={{ color: '#219c90', fontSize: '25px' }}> Personalized Care <span style={{ color: 'white', fontSize: '22px' }}>Apps,</span><br/> <span style={{ color: 'white', fontSize: '22px' }}> Explore the Ways of our Solutions <br/>are Revolutionizing Healthcare <br/> in Africa</span> </div></div>
-         :  <div> <span style={{ color: 'white', fontSize: '27px' }}>Delivering</span> <span style={{ color: '#219c90', fontSize: '26px' }}>Patient centered</span> <div style={{ color: '#219c90', fontSize: '30px' }}> Care <span style={{ color: 'white', fontSize: '30px' }}>at pivotal moment in their <br/></span> <span style={{ color: 'white', fontSize: '25px' }}>treatment journey</span> </div> </div>
+         currentIndex === 0 ?  <div> <span className='a' style={{ color: 'white', fontWeight: 'bold', fontSize: '18px' }}>MEDPLAN SOLUTIONS</span> <br/>  <div style={{ color: 'white', fontSize: '17px' }}> Improving Healthcare In <span style={{ color: '#219c90', fontSize: '14px' }}>Africa</span><br/>Using <span style={{ color: '#219c90', fontSize: '15px' }}>Digital Health</span> Solution </div> </div>
+         : currentIndex === 1 ? <div> <span style={{ color: 'white', fontSize: '18px' }}>From</span>  <span style={{ color: '#219c90', fontSize: '18px' }}>Telemedicine</span> <span style={{ color: 'white', fontSize: '18px' }}>to</span> <div style={{ color: '#219c90', fontSize: '18px' }}> Personalized Care <span style={{ color: 'white', fontSize: '14px' }}>Apps,</span><br/> <span style={{ color: 'white', fontSize: '14px' }}> Explore the Ways of our Solutions <br/>are Revolutionizing Healthcare <br/> in Africa</span> </div></div>
+         :  <div> <span style={{ color: 'white', fontSize: '17px' }}>Delivering</span> <span style={{ color: '#219c90', fontSize: '18px' }}>Patient centered</span> <div style={{ color: '#219c90', fontSize: '17px' }}> Care <span style={{ color: 'white', fontSize: '18px' }}>at pivotal moment in their <br/></span> <span style={{ color: 'white', fontSize: '13px' }}>treatment journey</span> </div> </div>
   
         }
       
-      
-     </div>
+     </div> 
+    
     
 
      </div>

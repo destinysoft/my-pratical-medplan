@@ -67,7 +67,7 @@
 
 
 
-@media screen and (max-width:  767px) {
+@media (max-width: 767px){
         
     .informeddiv{
         display: flex;
@@ -118,10 +118,10 @@
 }
 
 .techtext{
-  font-weight: lighter;
+  font-weight: normal;
   position: relative;
-  left: 20px;
-  font-size: 10px;
+  left: 12px;
+  font-size: 8px;
  
 }
 

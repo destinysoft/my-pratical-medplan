@@ -38,7 +38,7 @@
 
 
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .philosophytext{
         font-weight: bold;
         font-family:'Arial Narrow';
@@ -52,7 +52,7 @@
       .philodiv{
         display: flex;
         flex-direction: column;
-      
+        margin-top: 20px;
       }
     
     .philosophymaintext{
@@ -66,9 +66,9 @@
     .homeimg{
       height: auto;
       display: block;
-      width: 465px;
+      width: 90%;
       margin-left: 15px;
-      margin-bottom: 2px;
+      /* margin-bottom: 2px;  */
     }
     
 }
