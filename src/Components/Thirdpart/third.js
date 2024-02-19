@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiDoubleQuotesL } from "react-icons/ri";
-import { RiDoubleQuotesR } from "react-icons/ri"
+import { RiDoubleQuotesR } from "react-icons/ri";
 import './third.css'
 
 
@@ -29,7 +29,6 @@ function Founder () {
       </div>
 
   
-       {/* <p className="solutiontext">Our Solutions</p> */}
      </div>
 
        

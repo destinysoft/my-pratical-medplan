@@ -47,9 +47,9 @@ const Navbar = () => {
             </> :null}
        </li>
         
-        <li className="solutionlabel">News & Events</li>
-        <li className="solutionlabel">Research</li>
-        <li className="solutionlabel">About us</li>
+        <li>News & Events</li>
+        <li>Research</li>
+        <li>About us</li>
        </div> 
         </ul>
    
@@ -57,9 +57,6 @@ const Navbar = () => {
        
        {showMobileMenuOpen ? <IoIosClose className='close'/>  : <GiHamburgerMenu />  }
        
-       
-       
-    
        </div>
 
          </nav>

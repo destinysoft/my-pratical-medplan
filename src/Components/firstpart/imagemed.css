@@ -21,11 +21,95 @@
        
        .timecaption {
          position: absolute;
-         top: 450px;
+         top: 350px;
          bottom: 40px;
          left: 125px;
          right: -100px;
        }
+
+
+       .a{
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+      }
+  
+
+      .b{
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+      }
+
+      .c{
+        color: #219c90;
+        font-size: 30px;
+      }
+
+      .d{
+        color: #219c90;
+        font-size: 28px;
+      }
+
+      .e {
+        color: white;
+        font-size: 28px;
+      }
+
+      .f{
+        color: #219c90;
+        font-size: 25px;
+      }
+
+      .g {
+        color: white;
+        font-size: 25px;
+      }
+
+      .h{
+        color: #219c90;
+        font-size: 25px;
+      }
+
+      .i {
+        color: white;
+        font-size: 28px;
+      }
+
+      .j {
+        color: white;
+        font-size: 28px;
+      }
+
+
+      .k {
+        color: white;
+        font-size: 28px;
+      }
+
+
+      .l{
+        color: #219c90;
+        font-size: 28px;
+      }
+
+      .m{
+        color: #219c90;
+        font-size: 28px;
+      }
+
+      .n {
+        color: white;
+        font-size: 28px;
+      }
+
+
+      .o {
+        color: white;
+        font-size: 28px;
+       }
+  
+
 }
 
 
@@ -33,7 +117,7 @@
 @media (max-width: 767px) {
     .timecaption {
         position: absolute;
-        top: 300px;
+        top: 330px;
         left: 30px;
         margin-top: -232px;
         padding: 5px;
@@ -54,6 +138,87 @@
       margin-top: -10px;
     
     }
+
+    .a{
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .b{
+      color: white;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .c{
+      color: #219c90;
+      font-size: 15px;
+    }
+
+    .d{
+      color: #219c90;
+      font-size: 15px;
+    }
+
+    .e {
+      color: white;
+      font-size: 18px;
+    }
+
+    .f{
+      color: #219c90;
+      font-size: 18px;
+    }
+
+    .g {
+      color: white;
+      font-size: 18px;
+    }
+
+    .h{
+      color: #219c90;
+      font-size: 18px;
+    }
+
+    .i {
+      color: white;
+      font-size: 14px;
+    }
+
+    .j {
+      color: white;
+      font-size: 14px;
+    }
+
+    .k {
+      color: white;
+      font-size: 17px;
+    }
+
+    .l{
+      color: #219c90;
+      font-size: 18px;
+    }
+
+    .m{
+      color: #219c90;
+      font-size: 17px;
+    }
+
+
+
+    .n {
+      color: white;
+      font-size: 18px;
+    }
+
+     .o {
+      color: white;
+      font-size: 13px;
+     }
+
+
 
 
 

@@ -191,16 +191,16 @@
        
     
       .navlinks{
-        display: block;
         cursor: pointer;
         margin-top: 20px;
+      
       }
   
 
     .menu{
         display: none;
         flex-direction: column;
-        position: absolute;
+        /* position: absolute; */
         background-color: #377e77;
         right: 0;
         left: 0;
@@ -209,17 +209,13 @@
         cursor: pointer;
         width: 100%; 
         margin: 0%;
-        /* margin-top: 10px; */
-        /* margin-left: -100px; */
-        /* margin-top: 190px; */
-        /* top: 6.7%; */
     }
 
-    .menu.open  {
+    .menu.open {
       display: flex;
       cursor: pointer;
       position: absolute;
-      margin-bottom: 80px;
+      /* margin-bottom: 90px; */
     }
 
     
@@ -234,9 +230,9 @@
       border-right: none;
       line-height: 30px;
       color: white;
-      padding: 2px;
+      padding: 10px;
       cursor: pointer;
-      font-size: 10px;
+      font-size: 15px;
     }
     
 
@@ -245,17 +241,17 @@
     }
 
      .selectbox li{
-        color: #527853;
-        border: 1px solid #527853;
+        color:#219c90;
+        border-bottom: 1px solid #527853;
         border-top: none;
         border-left: none;
         border-right: none;
-        line-height: 40px;
+        /* line-height: 30px; */
+        padding: 10px;
         background-color: white;
      }
 
 
-  
 
     .mobilemenuicon{
       display: block;
@@ -271,7 +267,6 @@
     .solutionlabel:hover{
       color:#219c90;
     }
-
 
 
 

@@ -28,19 +28,14 @@ const Imagemed = ( { isOpen }) => {
 
         <div className='timecaption'>  
       {
-         currentIndex === 0 ?  <div> <span className='a' style={{ color: 'white', fontWeight: 'bold', fontSize: '18px' }}>MEDPLAN SOLUTIONS</span> <br/>  <div style={{ color: 'white', fontSize: '17px' }}> Improving Healthcare In <span style={{ color: '#219c90', fontSize: '14px' }}>Africa</span><br/>Using <span style={{ color: '#219c90', fontSize: '15px' }}>Digital Health</span> Solution </div> </div>
-         : currentIndex === 1 ? <div> <span style={{ color: 'white', fontSize: '18px' }}>From</span>  <span style={{ color: '#219c90', fontSize: '18px' }}>Telemedicine</span> <span style={{ color: 'white', fontSize: '18px' }}>to</span> <div style={{ color: '#219c90', fontSize: '18px' }}> Personalized Care <span style={{ color: 'white', fontSize: '14px' }}>Apps,</span><br/> <span style={{ color: 'white', fontSize: '14px' }}> Explore the Ways of our Solutions <br/>are Revolutionizing Healthcare <br/> in Africa</span> </div></div>
-         :  <div> <span style={{ color: 'white', fontSize: '17px' }}>Delivering</span> <span style={{ color: '#219c90', fontSize: '18px' }}>Patient centered</span> <div style={{ color: '#219c90', fontSize: '17px' }}> Care <span style={{ color: 'white', fontSize: '18px' }}>at pivotal moment in their <br/></span> <span style={{ color: 'white', fontSize: '13px' }}>treatment journey</span> </div> </div>
+         currentIndex === 0 ?  <div> <span className='a'>MEDPLAN SOLUTIONS</span> <br/>  <div className='b'> Improving Healthcare In <span className='c'>Africa</span><br/>Using <span  className='d'>Digital Health</span> Solution </div> </div>
+         : currentIndex === 1 ? <div> <span  className='e'>From</span>  <span className='f'>Telemedicine</span> <span className='g'>to</span> <div className='h'> Personalized Care <span className='i'>Apps,</span><br/> <span className='j'> Explore the Ways of our Solutions <br/>are Revolutionizing Healthcare <br/> in Africa</span> </div></div>
+         :  <div> <span className='k'>Delivering</span> <span className='l'>Patient centered</span> <div className='m'> Care <span className='n'>at pivotal moment in their <br/></span> <span  className='o'>treatment journey</span> </div> </div>
   
         }
       
      </div> 
-    
-    
-
      </div>
-    
-   
   </div>
   
   )
