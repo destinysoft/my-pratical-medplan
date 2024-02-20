@@ -43,7 +43,7 @@
         font-weight: bold;
         font-family:'Arial Narrow';
         font-size: 19px;
-        margin-top: 15px;
+        margin-top: 12px;
         margin-left: 10px;
         margin-bottom: 12px;
         padding: 10px;
@@ -52,7 +52,7 @@
       .philodiv{
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 12px;
       }
     
     .philosophymaintext{

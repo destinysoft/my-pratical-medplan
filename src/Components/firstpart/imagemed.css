@@ -124,11 +124,17 @@
       }
     
       .backimg{
-       /* margin-top: -10px; */
-       width: 430px;
-       height: 328px;
+       width: 100%;
+       height: auto;
        overflow: hidden;
       }
+/* 
+      .bbb{
+       
+       
+      } */
+
+
       
        .timeimg{
         display: none;
