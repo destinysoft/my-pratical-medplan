@@ -125,8 +125,9 @@
     
       .backimg{
        /* margin-top: -10px; */
-       width: 100%;
-      
+       width: 430px;
+       height: 328px;
+       overflow: hidden;
       }
       
        .timeimg{

@@ -95,9 +95,9 @@
     margin-left: 80px;
     border-radius: 50%;
     position: absolute;
-    /* bottom: -5232px; */
+    bottom: -5232px;
     padding: 10px;
-    bottom: -4942px;
+    /* bottom: -4942px; */
 } 
 
 
