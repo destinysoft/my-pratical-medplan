@@ -116,23 +116,23 @@
 
 @media (max-width: 767px) {
     .timecaption {
-        position: absolute;
-        top: 330px;
-        left: 30px;
-        margin-top: -232px;
-        padding: 5px;
+        /* position: absolute; */
+        /* top: 330px;
+        left: 30px; */
+        padding: 15px;
+        width: 100vw;
+        height: 300px; 
+        background-image: url("../../Assets/hHeader.png");
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
       }
     
-      .backimg{
-       width: 100%;
-       height: auto;
-       overflow: hidden;
-      }
-/* 
+
       .bbb{
-       
-       
-      } */
+        margin-top: 82px;
+        margin-left: 30px;
+      } 
 
 
       
@@ -149,13 +149,13 @@
     .a{
       color: white;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .b{
       color: white;
       font-weight: bold;
-      font-size: 17px;
+      font-size: 15px;
     }
 
     .c{
@@ -170,12 +170,12 @@
 
     .e {
       color: white;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .f{
       color: #219c90;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .g {
@@ -185,7 +185,7 @@
 
     .h{
       color: #219c90;
-      font-size: 18px;
+      font-size: 15px;
     }
 
     .i {
@@ -200,12 +200,12 @@
 
     .k {
       color: white;
-      font-size: 17px;
+      font-size: 15px;
     }
 
     .l{
       color: #219c90;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .m{
@@ -217,7 +217,7 @@
 
     .n {
       color: white;
-      font-size: 18px;
+      font-size: 16px;
     }
 
      .o {

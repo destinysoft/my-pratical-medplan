@@ -170,7 +170,7 @@
 
 
 
-@media (max-width: 767px) {
+@media screen  and (max-width: 999px) and  (min-width: 500px)  {
 
     .navbar{
         display: flex;
@@ -215,13 +215,8 @@
       display: flex;
       cursor: pointer;
       position: absolute;
-      /* margin-bottom: 90px; */
-    }
-
     
-   /* .open.bbb {
-    margin-bottom: 300px;
-   } */
+    }
 
 
 
@@ -242,17 +237,27 @@
         color:#527853
     }
 
-     .selectbox li{
+     .selectbox ul li{
         color:#219c90;
-        border-bottom: 1px solid #527853;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        /* line-height: 30px; */
         padding: 10px;
-        background-color: white;
      }
 
+
+     .solution ul {
+      background-color: white;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+     }
+
+     .solution li {
+      color:#219c90;
+      cursor: pointer;
+      border-bottom: 1px solid #527853;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+     }
 
 
     .mobilemenuicon{
@@ -267,7 +272,7 @@
 
  
     .solutionlabel:hover{
-      color:#219c90;
+      color:#527853
     }
 
 
