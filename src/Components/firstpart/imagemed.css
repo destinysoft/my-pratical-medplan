@@ -114,7 +114,7 @@
 
 
 
-@media (max-width: 767px) {
+@media screen and (max-width: 964px)  {
     .timecaption {
         /* position: absolute; */
         /* top: 330px;
@@ -128,6 +128,7 @@
         background-position: center;
       }
     
+
 
       .bbb{
         margin-top: 82px;

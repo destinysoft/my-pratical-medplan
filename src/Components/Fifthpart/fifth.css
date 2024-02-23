@@ -44,7 +44,7 @@
 
 
 
-@media (max-width: 767px) {
+@media screen and (max-width: 964px)  {
     .pic{
         width: 100vw;
         margin-top: 30px;

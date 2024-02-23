@@ -55,10 +55,6 @@
         display: none;
       }
 
-
-
-
-
       
       .solutionlabel{
         cursor: pointer;
@@ -75,15 +71,8 @@
         color:#219c90;
       }
 
-
-      .solutionlabel li:last-child{
-         border: none;
-      }
-
-
-
       
-      .selectbox{
+      .solution{
         position: absolute;
         left: 62;
         transform: translate(35%);
@@ -101,7 +90,7 @@
       }
       
       
-      .selectbox li{
+      .solution li{
         border: 1px solid white;
         border-top: none;
         border-left: none;
@@ -111,15 +100,22 @@
         cursor: pointer;
       }
       
-      .selectbox li:last-child {
+      .solution li:last-child {
            border: none;
       }
+      
+      .solution  li{
 
-
+        line-height: 40px;
+        color: white;
+        cursor: pointer;
+      }
+      
       .solution li:hover{
         color: #527853;
         transition: 0.3s ease;
       }
+
       
  
 
@@ -130,23 +126,12 @@
     
    } 
 
-   .solutionlabel{
+   .menu li:hover{
     cursor: pointer;
-    cursor: pointer;
-    color: #777575;
-  }
+    color:#219c90;
+   }
   
-  .selectbox li{
 
-    line-height: 40px;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .solution li:hover{
-    color: #527853;
-    transition: 0.3s ease;
-  }
   
   
   .solutionlabel:hover{
@@ -165,12 +150,7 @@
 
 
 
-
-
-
-
-
-@media screen  and (max-width: 999px) and  (min-width: 500px)  {
+@media screen and (max-width: 964px)  {
 
     .navbar{
         display: flex;
@@ -237,17 +217,23 @@
         color:#527853
     }
 
-     .selectbox ul li{
-        color:#219c90;
-        padding: 10px;
-     }
+    
+   
+
+    
+    .solution li:hover{
+      color: #527853;
+      transition: 0.3s ease;
+    }
+
+
+
 
 
      .solution ul {
       background-color: white;
-      border-top: none;
-      border-left: none;
-      border-right: none;
+      padding: 0;
+      margin: 0%;
      }
 
      .solution li {
@@ -257,6 +243,10 @@
       border-top: none;
       border-left: none;
       border-right: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 5px;
+  
      }
 
 

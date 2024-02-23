@@ -67,7 +67,7 @@
 
 
 
-  @media (max-width: 767px) {
+  @media screen and (max-width: 964px) {
   
   .container{
     display: flex;
@@ -79,10 +79,11 @@
 
    .testimonial {
     display: flex;
-    align-items: center;
-    transition: transform 0.5s ease-in-out;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    transition: transform 0.5s ease;
     width: 85%;
-    height: 255%;
+    height: 200%;
     padding: 15px;
     border: 10px groove #cccccc17;
     box-sizing: border-box; 
@@ -92,20 +93,23 @@
 
    .imgdiv{
     width: 100px;
-    margin-left: 80px;
+    margin-left: 100px;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
     padding: 10px;
-    bottom: -4899px;
+    /* bottom: -4899px; */
 } 
 
 
 
 .namediv{
-  margin-left: 80px;
-  margin-top: 29vw;
+  position: relative;
+  bottom: -130px;
+  gap: 20px;
+  margin-left: 90px;
+  /* margin-top: 40px; */
   font-size: 12px;
-  padding: 12px;
+  padding: 15px;
 }
 
 
@@ -113,7 +117,7 @@
   margin-left: 12px;
   font-size: 16px;
   margin-top: 0px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   color: rgba(0, 0, 0, 0.521);
 }
 

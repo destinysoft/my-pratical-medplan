@@ -36,7 +36,7 @@ const Navbar = () => {
          {  showAboutDropdown ? <>
 
           <li className='solution'> 
-            <ul className='selectbox'>
+            <ul>
                 <li>Medplan</li>
                 <li>NaijaPharms</li>
                 <li>Tellapharm</li>
