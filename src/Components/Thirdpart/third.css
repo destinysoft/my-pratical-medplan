@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     
   .founderdiv{
     background-color: rgba(212, 210, 210, 0.233);
@@ -59,7 +59,7 @@
 
 
 
-@media screen and (max-width: 964px)  {
+@media (min-width: 320px) and (max-width: 767px)  {
 
 
 .founderdiv{

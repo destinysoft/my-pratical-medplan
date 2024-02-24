@@ -1,4 +1,4 @@
-@media (min-width:  1024px)  {
+@media (min-width: 768px)  {
     
  .container{
   display: flex;
@@ -67,7 +67,7 @@
 
 
 
-  @media screen and (max-width: 964px) {
+  @media (min-width: 320px) and (max-width: 767px)  {
   
   .container{
     display: flex;

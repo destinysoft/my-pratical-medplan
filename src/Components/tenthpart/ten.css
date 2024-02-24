@@ -1,4 +1,4 @@
-@media screen  and (min-width:  1024px) {
+@media (min-width: 768px)  {
        
     .keep {
         color: rgba(0, 0, 0, 0.521);
@@ -7,9 +7,10 @@
         margin-top: 56px;
         font-family:"Calibri";
         font-weight: 560;
-        /* position: absolute;
-        top: 4970px;
-        left: 550px; */
+        position: absolute;
+        top: 4910px;
+        left: 550px;
+        padding-bottom: 15px;
     }
 
      
@@ -17,7 +18,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
      .riv{
@@ -45,7 +46,9 @@
       font-weight: lighter;
       position: relative;
       left: 20px;
-   }
+      font-size: 18px;
+    }
+
 
 
    .readtext{
@@ -67,16 +70,16 @@
 
 
 
-@media screen and (max-width: 964px) {
+@media (min-width: 320px) and (max-width: 767px)  {
         
     .informeddiv{
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin-top: -5px;
-        /* overflow: auto;
-        white-space: nowrap;
-        width: 100%; */
+        /* overflow: auto; */
+        /* white-space: nowrap; */
+        width: 100%;
     }
 
 
@@ -96,15 +99,16 @@
      .riv{
         display: flex;
         flex-direction: column;
-        /* display: inline-block;
+        display: inline-block;
         margin-right: 10px;
-        vertical-align: text-bottom;
+        /* vertical-align: text-bottom;
         white-space: normal; */
+        /* overflow: auto; */
      }
 
 
     .peoplemg{
-        width: 30vw;
+        width: 145px;
         margin-bottom: 5px;
         padding: 20px;
    }
@@ -120,9 +124,9 @@
 .techtext{
   font-weight: normal;
   position: relative;
-  left: 12px;
+  left: 17px;
   font-size: 8px;
- 
+  color: rgb(8, 7, 7);
 }
 
 

@@ -1,9 +1,15 @@
-@media (min-width: 1024px)  {
+@media (min-width: 768px)   {
       
  .imgtext{
   width: 100vw;
   height: 50vw;
  }
+
+
+.p{
+   width: 100vw;
+}
+
 
  .imgtwo{
    display: none;
@@ -51,7 +57,7 @@
 
 
 
-@media screen and (max-width: 964px)  {
+@media (min-width: 320px) and (max-width: 767px)  {
     .imgtext{
         display: none;
        }

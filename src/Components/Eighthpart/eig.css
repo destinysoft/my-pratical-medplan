@@ -1,4 +1,4 @@
-@media (min-width:  1024px) {
+@media (min-width: 768px)  {
     .anaimg{
         width: 42vw;
         height: 27vw;
@@ -52,7 +52,7 @@
 
 
 
-@media screen and (max-width: 964px) {
+@media (min-width: 320px) and (max-width: 767px)  {
     
     .anaimg{
         display: none;

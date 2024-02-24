@@ -1,9 +1,9 @@
-@media screen and (min-width: 1024px) {
+@media (min-width: 768px) {
 
   .footermain{
     background-color:#267269;
     margin-top: 50px;
-  
+    width:  100vw;
   }
 
   .main{
@@ -147,7 +147,7 @@
 
 
 
-@media screen and (max-width: 964px) {
+@media (min-width: 320px) and (max-width: 767px)  {
    
   .footermain{
         background-color:#267269;
@@ -199,20 +199,19 @@
       }
 
        .nal {
-       margin-top: -420px;
-       margin-left: -20px;
+       margin-top: -410px;
+       margin-left: -10px;
        display: flex;
        flex-direction: row;
+       justify-content: center;
      }
 
      .cal {
-      margin-left: -365px;
-      margin-top: -310px;
+      margin-left: -360px;
+      margin-top: -305px;
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      font-size: 12px;
-      text-align: center;
+      font-size: 13px;
     }
    
 

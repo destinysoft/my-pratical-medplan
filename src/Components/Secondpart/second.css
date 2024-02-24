@@ -1,11 +1,11 @@
-@media (min-width: 1024px) {
+@media (min-width: 768px)  {
     .philosophytext{
         font-weight: bold;
         font-family:'Arial Narrow';
         padding-left: 75px;
         position: absolute;
         font-size: 22px;
-      
+        margin-top: 20px;
       }
     
       .philosophymaintext{
@@ -38,7 +38,7 @@
 
 
 
-@media screen and (max-width: 964px) {
+@media (min-width: 320px) and (max-width: 767px)  {
     .philosophytext{
         font-weight: bold;
         font-family:'Arial Narrow';
@@ -66,8 +66,8 @@
     .homeimg{
       height: auto;
       display: block;
-      width: 100vw;
-      margin-left: 5px;
+      width: 97vw;
+      margin-left: 10px;
     }
     
 }

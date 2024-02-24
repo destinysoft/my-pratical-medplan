@@ -9,7 +9,7 @@ import './six.css'
 function Patient () {
     return (
 
-     <div>
+     <div className="p">
        <img  className='imgtext'    src={image5}  alt='image5'  />
        <img  className='imgtwo'    src={image6}  alt='image6'  />
 
