@@ -4,6 +4,8 @@
     background-color:#267269;
     margin-top: 50px;
     width:  100vw;
+    height: auto;
+    overflow-x: hidden;
   }
 
   .main{
@@ -153,14 +155,16 @@
         background-color:#267269;
         margin-top: 40px;
         color: white;
-        padding: 20px;
+        padding: 1px;
         width: 100%;
         text-align: center;
+       
       }
     
       .main{
         margin-top: 40px;
         border-top: 1px solid rgb(251, 217, 217);
+        overflow-x: hidden;
       }
     
       table,td,th {
@@ -200,10 +204,11 @@
 
        .nal {
        margin-top: -410px;
-       margin-left: -10px;
+       margin-left: 10px;
        display: flex;
        flex-direction: row;
        justify-content: center;
+       overflow-x: hidden;
      }
 
      .cal {
