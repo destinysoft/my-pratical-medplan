@@ -1,9 +1,8 @@
 
-
-@media (min-width: 768px) {
     .navbar{
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
+        /* justify-content: space-between; */
         padding: 15px;
         background-color: white;
         color: #333;
@@ -14,22 +13,26 @@
       .logo{
         padding-left: 85px;
         height: 55px;
-      
+        /* align-items: start; */
       }
     
       .navlinks{
         list-style: none;
         display: flex;
-        justify-content: space-around;
-        margin-right: 120px;
-        padding:  5px;
-        font-size: 22px;
+        flex-direction: row;
+        justify-content: end;
+        margin-left: 120px;
+        margin-top: 10px;
+        font-size: 20px;
         font-weight: light;
         color:black;
+        cursor: pointer;
       }
       
       .navlinks li{
         margin: 0 15px;
+        display: inline;
+        cursor: pointer;
       }
       
       
@@ -116,10 +119,12 @@
  
 
     .menu{
-        display: flex;
+        display: inline-flex;
         flex-direction: row;
+        /* justify-content: end; */
+        margin-left: 170px;
         gap: 1em;
-        font-size: 22px;
+        font-size: 20px;
     
    } 
 
@@ -141,7 +146,6 @@
 }
 
 
-}
 
 
 

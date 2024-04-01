@@ -1,4 +1,4 @@
-@media (min-width: 768px)  {
+ 
        
     .keep {
         color: rgba(0, 0, 0, 0.521);
@@ -21,9 +21,14 @@
         margin-top: 30px;
     }
 
+    .rivdiv {
+       display: flex;
+    flex-direction: row;
+    }
+
      .riv{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
        
      }
         
@@ -61,7 +66,6 @@
     left: 20px;
    }
 
-}
 
 
 
@@ -72,16 +76,7 @@
 
 @media (min-width: 320px) and (max-width: 767px)  {
         
-    .informeddiv{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: -5px;
-        /* overflow: auto; */
-        /* white-space: nowrap; */
-        width: 100%;
-    }
-
+   
 
     .keep {
         color: rgba(0, 0, 0, 0.521);
@@ -89,28 +84,46 @@
         font-size: 18px;
         font-weight: bold;
         font-family:"Calibri";
-        padding: 10px;
+        padding: 20px;
         margin-top: 90px;
     }
 
 
+    .informeddiv{
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        flex-direction: column;
+        margin-left: 18px;
+        /* width: 582px; */
+        /* height: auto; */
+        margin-top: 16px;
+        /* width: 680px; */
+    
+    }
+
+
+    .rivdiv {
+        display: flex;
+        flex-direction: row;
+      
+    }
 
 
      .riv{
-        display: flex;
-        flex-direction: column;
         display: inline-block;
-        margin-right: 10px;
-        /* vertical-align: text-bottom;
-        white-space: normal; */
-        /* overflow: auto; */
+        width: 174px;
+        height: 174px;
+        /* margin-top: 15px; */
+        /* padding: 8px; */
      }
 
 
     .peoplemg{
-        width: 145px;
-        margin-bottom: 5px;
-        padding: 20px;
+        width: 195px;
+        padding: 5px;
+        margin-left: 10px;
    }
 
 
@@ -118,15 +131,20 @@
     font-weight: bold;
     margin-bottom: 7px;
     margin-left: 19px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .techtext{
   font-weight: normal;
   position: relative;
   left: 17px;
-  font-size: 8px;
+  font-size: 14px;
+  padding-right: 10px;
   color: rgb(8, 7, 7);
+}
+
+.techtext .br {
+    display: none;
 }
 
 
@@ -134,8 +152,7 @@
 font-weight: light;
 font-family:'system-ui';
 color:#777575;
-font-size: 15px;
-padding-bottom: 30px;
+font-size: 14px;
 position: relative;
 left: 20px;
 }

@@ -12,7 +12,7 @@ function Future  () {
             <p className='keep'>Keep Yourself Informed</p>  <br/>
        
          <div className='informeddiv'>
-                    
+                <div className='rivdiv'>
                  <div classNameo='riv'>           
                       <img class="peoplemg"  src={Image15}  alt="img"  />
                
@@ -28,10 +28,6 @@ function Future  () {
                      <span className='readtext'>Read More </span>
                </div>
 
-
-                
-
-
              <div  classNameo='riv'> 
                 <img class="peoplemg"  src={Image16}  alt="img"  />
   
@@ -46,12 +42,10 @@ function Future  () {
 
                <span className='readtext'>Read More </span>
            </div>
-              
-
-
+          
              <div  classNameo='riv'>
-                    <img class="peoplemg"  src={Image17}  alt="img"  />
-               
+                    <img className="peoplemg"  src={Image17}  alt="img"  />
+
                <p className='futuret'> The Future of Digital Surgery</p> 
                 
                 <span className='techtext'>
@@ -63,7 +57,7 @@ function Future  () {
 
                <span className='readtext'>Read More </span>
             </div>
-   
+           </div>
         </div>   
    </div>
           )

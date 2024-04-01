@@ -35,7 +35,7 @@ const Navbar = () => {
        <div className='solutionlabel'>Solutions  &nbsp; <   RiArrowDropDownLine   className='dp' /></div>
          {  showAboutDropdown ? <>
 
-          <li className='solution'> 
+          <li className='solution'>
             <ul>
                 <li>Medplan</li>
                 <li>NaijaPharms</li>
