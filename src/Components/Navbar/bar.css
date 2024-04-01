@@ -1,148 +1,161 @@
+@media (min-width: 768px) {
 
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        /* justify-content: space-between; */
-        padding: 15px;
-        background-color: white;
-        color: #333;
-        margin-bottom: 5px;
-      }
-      
-      
-      .logo{
-        padding-left: 85px;
-        height: 55px;
-        /* align-items: start; */
-      }
-    
-      .navlinks{
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        margin-left: 120px;
-        margin-top: 10px;
-        font-size: 20px;
-        font-weight: light;
-        color:black;
-        cursor: pointer;
-      }
-      
-      .navlinks li{
-        margin: 0 15px;
-        display: inline;
-        cursor: pointer;
-      }
-      
-      
-      .navlinks a{
-        text-decoration: none;
-        cursor: pointer;
-        z-index: 1;
-        color: #777575;
-      }
-      
-      .home {
-        color:#219c90;
-        text-decoration: underline;
-        cursor: pointer;
-      }
-      
-      
-      .navlinks a:hover{
-        color:#219c90;
-      }
 
-      .mobilemenuicon{
-        display: none;
-      }
 
-      
-      .solutionlabel{
-        cursor: pointer;
-        color: #777575;
-      }
-      
-      
-      .dp{
-        color: black;
-        font-size: 20px;
-      }
-      
-      .solutionlabel:hover{
-        color:#219c90;
-      }
 
-      
-      .solution{
-        position: absolute;
-        left: 62;
-        transform: translate(35%);
-        width: 140px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #219c90;
-        font-size: 15px;
-        padding-right: 10px;
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-bottom: 25px;
-        margin-top: 20px;
-        text-decoration: none;
-        border-radius: 8px;
-      }
-      
-      
-      .solution li{
-        border: 1px solid white;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        line-height: 40px;
-        color: white;
-        cursor: pointer;
-      }
-      
-      .solution li:last-child {
-           border: none;
-      }
-      
-      
-      .solution li:hover{
-        color: #527853;
-        transition: 0.3s ease;
-      }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 15px;
+    background-color: white;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
 
-      
- 
 
-    .menu{
-        display: inline-flex;
-        flex-direction: row;
-        /* justify-content: end; */
-        margin-left: 170px;
-        gap: 1em;
-        font-size: 20px;
-    
-   } 
+  
+  .logo{
+    padding-left: 85px;
+    height: 55px;
+    /* align-items: start; */
+  }
 
-   .menu li:hover{
+  .navlinks{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: light;
+    color:black;
     cursor: pointer;
-    color:#219c90;
-   }
+  }
   
+  .navlinks li{
+    margin: 0 15px;
+    display: inline;
+    cursor: pointer;
+  }
+  
+  
+  .navlinks a{
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 1;
+    color: #777575;
+  }
+  
+  .home {
+    color:#219c90;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  
+  .navlinks a:hover{
+    color:#219c90;
+  }
+
+  .mobilemenuicon{
+    display: none;
+  }
 
   
+  .solutionlabel{
+    cursor: pointer;
+    color: #777575;
+  }
+  
+  
+  .dp{
+    color: black;
+    font-size: 20px;
+  }
   
   .solutionlabel:hover{
     color:#219c90;
   }
+
+  
+  .solution{
+    position: absolute;
+    left: 62;
+    transform: translate(35%);
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #219c90;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  
+  
+  .solution li{
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .solution li:last-child {
+       border: none;
+  }
+  
+  
+  .solution li:hover{
+    color: #527853;
+    transition: 0.3s ease;
+  }
+
   
 
+
+.menu{
+    display: inline-flex;
+    flex-direction: row;
+    /* justify-content: end; */
+    margin-left: 170px;
+    gap: 1em;
+    font-size: 20px;
+
+} 
+
+.menu li:hover{
+cursor: pointer;
+color:#219c90;
+}
+
+
+
+
+.solutionlabel:hover{
+color:#219c90;
+}
+
+
 .close{
-  display: none;
+display: none;
+}
+
+
+
+
+
+
 }
 
 

@@ -1,110 +1,116 @@
 
-    .timemed {
-        width: 95rem;
-        height: 65rem;
-        margin-top: -13px;
-       
-       }
-       
-       
-       .timeimg{
-         width:  100%;
-         
-       }
+@media (min-width: 768px) {
+  .timemed {
+    width: 95rem;
+    height: 65rem;
+    margin-top: -13px;
+   
+   }
+   
+   
+   .timeimg{
+     width:  100%;
+     
+   }
 
-       .backimg{
-        display: none;
-      }
-       
-       .timecaption {
-         position: absolute;
-         top: 350px;
-         bottom: 40px;
-         left: 125px;
-         right: -100px;
-       }
-
-
-       .a{
-        color: white;
-        font-weight: bold;
-        font-size: 30px;
-      }
-  
-
-      .b{
-        color: white;
-        font-weight: bold;
-        font-size: 28px;
-      }
-
-      .c{
-        color: #219c90;
-        font-size: 30px;
-      }
-
-      .d{
-        color: #219c90;
-        font-size: 28px;
-      }
-
-      .e {
-        color: white;
-        font-size: 28px;
-      }
-
-      .f{
-        color: #219c90;
-        font-size: 25px;
-      }
-
-      .g {
-        color: white;
-        font-size: 25px;
-      }
-
-      .h{
-        color: #219c90;
-        font-size: 25px;
-      }
-
-      .i {
-        color: white;
-        font-size: 28px;
-      }
-
-      .j {
-        color: white;
-        font-size: 28px;
-      }
+   .backimg{
+    display: none;
+  }
+   
+   .timecaption {
+     position: absolute;
+     top: 350px;
+     bottom: 40px;
+     left: 125px;
+     right: -100px;
+   }
 
 
-      .k {
-        color: white;
-        font-size: 28px;
-      }
+   .a{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
 
 
-      .l{
-        color: #219c90;
-        font-size: 28px;
-      }
+  .b{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+  }
 
-      .m{
-        color: #219c90;
-        font-size: 28px;
-      }
+  .c{
+    color: #219c90;
+    font-size: 30px;
+  }
 
-      .n {
-        color: white;
-        font-size: 28px;
-      }
+  .d{
+    color: #219c90;
+    font-size: 28px;
+  }
+
+  .e {
+    color: white;
+    font-size: 28px;
+  }
+
+  .f{
+    color: #219c90;
+    font-size: 25px;
+  }
+
+  .g {
+    color: white;
+    font-size: 25px;
+  }
+
+  .h{
+    color: #219c90;
+    font-size: 25px;
+  }
+
+  .i {
+    color: white;
+    font-size: 28px;
+  }
+
+  .j {
+    color: white;
+    font-size: 28px;
+  }
 
 
-      .o {
-        color: white;
-        font-size: 28px;
-       }
+  .k {
+    color: white;
+    font-size: 28px;
+  }
+
+
+  .l{
+    color: #219c90;
+    font-size: 28px;
+  }
+
+  .m{
+    color: #219c90;
+    font-size: 28px;
+  }
+
+  .n {
+    color: white;
+    font-size: 28px;
+  }
+
+
+  .o {
+    color: white;
+    font-size: 28px;
+   }
+
+}
+
+
+
   
 
 
